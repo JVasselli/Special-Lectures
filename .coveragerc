@@ -1,13 +1,14 @@
 [run]
 branch = True
 omit =
-        */tests/*
+        tests/*
         */usr/local/lib*
         */__init__.py
 
 
 [report]
+show_missing = True
 omit =
-        */tests/*
+        tests/*
         */usr/local/lib*
         */__init__.py
