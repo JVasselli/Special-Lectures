@@ -17,4 +17,4 @@ class TestCSVPrinter(unittest.TestCase):
     def test_throw_exception(self):
         printer = CSVPrinter("non_existant_file.csv")
         with self.assertRaises(FileNotFoundError):
-            l = printer.read()
+            _ = printer.read()
